@@ -2,51 +2,107 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Privacy Policy for TandeMate</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | TandeMate</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h1 { color: #1a73e8; border-bottom: 2px solid #eee; padding-bottom: 10px; font-size: 28px; }
+        h3 { color: #202124; margin-top: 30px; border-left: 4px solid #1a73e8; padding-left: 15px; }
+        p, li { font-size: 15px; color: #5f6368; }
+        strong { color: #202124; }
+        .effective-date { font-style: italic; color: #888; margin-bottom: 30px; }
+        ul, ol { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        a { color: #1a73e8; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .highlight-box {
+            background-color: #f1f3f4;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border-left: 4px solid #f4b400;
+        }
+    </style>
 </head>
 <body>
-    <h1><strong>Privacy Policy for TandeMate</strong></h1>
-    <p><strong>Effective Date</strong>: 30/03/2026</p>
+    <div class="container">
+        <h1>Privacy Policy for TandeMate</h1>
+        <p class="effective-date">Last Updated: March 30, 2026</p>
 
-    <p>At TandeMate, we are dedicated to safeguarding the privacy and confidentiality of your personal information. This privacy policy explains how we collect, use, share, and protect your personal data when you use our mobile app, TandeMate, and its services.</p>
+        <p>At <strong>TandeMate</strong>, we are dedicated to safeguarding the privacy and confidentiality of your personal information. This privacy policy explains how we collect, use, share, and protect your personal data when you use our mobile application and associated services.</p>
 
-    <h3><strong>1. Data We Collect & How We Use It</strong></h3>
-    <ol>
-        <li><strong>Precise Location Data:</strong> 
-            <br>TandeMate requests access to your device's <strong>specific location</strong> to help you find nearby language partners. 
-            <br><em>Storage:</em> This data is stored securely using <strong>Google Firebase</strong>. 
-            <br><em>Visibility:</em> Other users of the app will be able to see your <strong>approximate distance</strong> (e.g., "500m away") to facilitate meetups. We do not share your exact GPS coordinates with other users.
-            <br><em>No Background Tracking:</em> We only access your location while the app is in use.
-        </li>
-        <li><strong>Account & Profile Information:</strong> We collect your name, email, and language goals to create your discovery profile.</li>
-        <li><strong>Technical Log Data:</strong> We use <strong>Google Crashlytics</strong> to collect information about app crashes and performance issues. This may include device type, OS version, and certain identifiers that help us fix bugs, but it does not include your name or private messages.</li>
-    </ol>
+        <h3>1. Data Collection & Usage</h3>
+        <ol>
+            <li><strong>Precise Location Data:</strong> 
+                TandeMate requests access to your device's <strong>specific GPS location</strong> to connect you with language partners in your immediate vicinity.
+                <ul>
+                    <li><em>Visibility:</em> Your location is used to calculate distance. Other users see an <strong>approximate distance</strong> (e.g., "0.5km away")</li>
+                    <li><em>No Background Tracking:</em> Location data is accessed only while the app is in use (Foreground).</li>
+                    <li><em>Storage:</em> Data is stored securely via Google Firebase.</li>
+                </ul>
+            </li>
+            <li><strong>Account & Profile Information:</strong> We collect your name, email address, and language learning goals to facilitate your discovery profile.</li>
+            <li><strong>Safety & Moderation Data:</strong> To comply with safety regulations, we collect and store <strong>user reports and block lists</strong>. This data is used solely to moderate the community and prevent harassment.</li>
+            <li><strong>Technical Analytics:</strong> We use <strong>Google Crashlytics</strong> to monitor app performance. This includes device type and OS version but excludes personal identifiers or private communications.</li>
+        </ol>
 
-    <h3><strong>2. Third-Party Data Processors</strong></h3>
-    <p>To provide our services, we share certain data with the following third-party providers:</p>
-    <ul>
-        <li><strong>Google Maps SDK:</strong> Used to provide mapping and location services. <a href="https://www.google.com/policies/privacy/">Privacy Policy</a>.</li>
-        <li><strong>Google Firebase:</strong> Used for secure cloud storage of your profile and location data. <a href="https://firebase.google.com/support/privacy">Privacy Details</a>.</li>
-        <li><strong>Google Crashlytics:</strong> Used to monitor app stability and fix technical errors.</li>
-    </ul>
+        <h3>2. Community Safety & Moderation (UGC)</h3>
+        <div class="highlight-box">
+            <p>In accordance with 2026 App Store and Google Play safety mandates, TandeMate enforces a <strong>Zero-Tolerance Policy</strong> for objectionable content or abusive behavior.</p>
+            <ul>
+                <li><strong>Blocking:</strong> Users may block any individual at any time. Blocking is mutual and permanent unless manually revoked.</li>
+                <li><strong>Reporting:</strong> A clear mechanism is provided to report any profile violating our standards. Reports are reviewed by human moderators within 24 hours.</li>
+                <li><strong>Enforcement:</strong> Verified violations result in immediate content removal and permanent account termination.</li>
+            </ul>
+        </div>
 
-    <h3><strong>3. Legal Basis for Processing</strong></h3>
-    <p>We process your data based on:</p>
-    <ul>
-        <li><strong>Consent:</strong> You provide explicit consent when you allow location permissions on your device.</li>
-        <li><strong>Contractual Necessity:</strong> We cannot show you "nearby" partners without processing your location data.</li>
-    </ul>
+        <h3>3. Third-Party Data Processors</h3>
+        <p>We share limited data with the following essential service providers:</p>
+        <ul>
+            <li><strong>Google Maps SDK:</strong> Facilitates mapping and distance services. <a href="https://www.google.com/policies/privacy/" target="_blank">Privacy Policy</a>.</li>
+            <li><strong>Google Firebase:</strong> Provides secure cloud infrastructure and encrypted database storage. <a href="https://firebase.google.com/support/privacy" target="_blank">Privacy Details</a>.</li>
+            <li><strong>Google Crashlytics:</strong> Monitors app stability and technical health.</li>
+        </ul>
 
-    <h3><strong>4. Data Retention and Deletion</strong></h3>
-    <p>We retain your location and profile data as long as your account is active. You may delete your account at any time within the app settings, which will trigger the deletion of your personal data from our Firebase database within [Insert Days, e.g., 30] days.</p>
+        <h3>4. Legal Basis for Processing</h3>
+        <p>Processing is conducted under the following legal frameworks:</p>
+        <ul>
+            <li><strong>Consent:</strong> Explicit permission granted by you via system-level location and notification prompts.</li>
+            <li><strong>Contractual Necessity:</strong> Data processing is required to deliver the core "nearby discovery" functionality of the service.</li>
+        </ul>
 
-    <h3><strong>5. Security</strong></h3>
-    <p>We leverage Firebase's industry-standard security protocols to protect your data. However, no method of electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
+        <h3>5. Data Retention & Deletion</h3>
+        <p>We retain your information only as long as your account remains active. 
+        <strong>You have the right to be forgotten:</strong></p>
+        <ul>
+            <li><strong>In-App Deletion:</strong> You may trigger full account deletion via the App Settings.</li>
+            <li><strong>Timeline:</strong> Upon deletion, all personal records, location history, and profile data are <strong>permanently purged from our production databases within 72 hours.</strong></li>
+            <li><strong>Manual Requests:</strong> Users may also request data deletion by contacting us at the email below.</li>
+        </ul>
 
-    <h3><strong>6. Contact Us</strong></h3>
-    <p>For any privacy-related inquiries, please contact:</p>
-    <ul>
-        <li><strong>Email</strong>: gengolabs@gmail.com</li>
-    </ul>
+        <h3>6. Security Measures</h3>
+        <p>We employ industry-standard encryption and Firebase security protocols to protect your data during transit and at rest. While we strive for absolute security, no method of electronic transmission is 100% secure.</p>
+
+        <h3>7. Contact Information</h3>
+        <p>For inquiries regarding this policy or your data rights, please contact:</p>
+        <ul>
+            <li><strong>Gengo Labs Support</strong></li>
+            <li><strong>Email:</strong> <a href="mailto:gengolabs@gmail.com">gengolabs@gmail.com</a></li>
+        </ul>
+    </div>
 </body>
 </html>
